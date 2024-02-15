@@ -1,0 +1,60 @@
+HTML
+
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device, initial-scale=1.0">
+
+        <title>BANCO CREDITO SEGURO!!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+    <body>
+        <h1>insira o valor do emprestimo que deseja</h1>
+        <button type="button" onclick="insiraOValor()"></button>
+
+        <h1>selecione o tipo de contrato</h1>
+    <form>
+        <label for="emprestimo">esclha o tipo de contrato:</label>
+        <select id="emprestimo" name="emprestimo">
+        <option value="concursado">concursado</option>
+        <option value="carteira assinada CLT">carteira assinada CLT</option>
+        <option value="cotrato temporario">contrato temporario</option>
+    </select>
+    </form>
+    </body>
+
+        <div id="resultados"></div>
+        <br>
+        <script src="script.js">
+
+
+
+SCRIPT.JS
+
+
+
+function aplicarTaxa(concursado){
+    let diaDaSemana=3;
+    return concursado*1;}
+
+ function aplicarTaxa(carteiraAssinadaCLT){
+    let diaDaSemana=4;
+    return carteiraAssinadaCLT*1.5;}
+ 
+ function aplicarTaxa(contratoTemporario){
+    let diaDaSemana=5;
+    return contratoTemporario*3.0;}
+
+
+ const concursado = calcularTaxa(1 * 1)
+ const carteiraAssinadaCLT = calcularTaxa(1.5 * 2)
+ const contratoTemporario = calcularTaxa(3.0 * 3)
+
+ const calcularTotal = totalASerPago(1 * 1) + (1.5 * 2) + (3.0 * 3)
+
+ console.log("o valor inicial do emprestimo é:");
+ console.log("o valor do emprestimo:");
+ console.log("tipo de contrato selecionado");
