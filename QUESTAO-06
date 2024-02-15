@@ -1,0 +1,94 @@
+HTML
+
+<!DOCTYPE html>
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device, initial-scale=1.0">
+
+        <title>BARRACA FRUTAS FRESCAS!!</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+
+      <body>
+        <h1>insira o valor que deseja consultar em seu nome</h1>
+    <form>
+        <label for="valores">selecione o valor</label>
+        <select id="valores" name="valores">
+        <option velue="200 "></option>
+        <option velue="201 a 299"></option>
+        <option velue="200 a 230"></option>
+
+    </select>
+    </form>
+    </body>
+        
+SCRIPT.JS
+
+
+function aplicarDesconto(valorTotal){
+        let diaDaSemana=3; 
+            return valorTotal*0.9;}
+
+
+function aplicadorDesconto(valorTotal){
+    let diaDaSemana=4;
+    return valorTotal*15;}
+
+function aplicadorDesconto(valorTotal){
+    let diaDaSemana=5;
+    return valorTotal*20;}
+
+
+
+CSS
+
+
+body{
+    font-family: arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+
+}
+form{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+label{
+    font-weight: bold;
+}
+input[type="text"],input[type="number"]{
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button{
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+
+}
+#resultado, #resultado2{
+    text-align: center;
+}
+
